@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T17:02:15.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.4" etag="jt_Trti2LSPjtzHau8LY" type="github"><diagram id="7JD_eBSHUUJGm-Uuj9hg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-16T19:18:59.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.4" etag="LkhITxaG0q19R20GFutQ" type="github">
+  <diagram id="7bwQp1ZC_OXJenUZEJ0d" name="Page-1">
+    <mxGraphModel dx="2497" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AiGFBbw4CaWcHELW53he-3" value="Storing task entries as .txt files" style="ellipse;shape=cloud;fontSize=16;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="10" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Entries contain :&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;optional: assigned date, due date, topic&amp;nbsp;&lt;br&gt;&lt;br&gt;mandatory: priority level, progress level" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="199" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-9" target="AiGFBbw4CaWcHELW53he-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-9" target="AiGFBbw4CaWcHELW53he-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-9" target="AiGFBbw4CaWcHELW53he-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-9" target="AiGFBbw4CaWcHELW53he-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-9" value="Task Entry" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="350" y="10" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-11" target="AiGFBbw4CaWcHELW53he-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-11" value="topic/subject/theme" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="140" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-16" target="AiGFBbw4CaWcHELW53he-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-16" target="AiGFBbw4CaWcHELW53he-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-16" target="AiGFBbw4CaWcHELW53he-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-16" value="priority level" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-20" target="AiGFBbw4CaWcHELW53he-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-20" value="assign/due dates" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-23" target="AiGFBbw4CaWcHELW53he-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-23" target="AiGFBbw4CaWcHELW53he-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AiGFBbw4CaWcHELW53he-23" target="AiGFBbw4CaWcHELW53he-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-23" value="progress" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="815" y="140" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-29" value="*Tasks that are &quot;in progress&quot;&amp;nbsp; will be shown first in order of priority" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-31" value="not started" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="140" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-33" value="in progress" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="990" y="270" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-35" value="completed" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="815" y="360" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-38" value="assign/due dates" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-40" value="resources" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="290" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-50" value="priority level" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="345" y="229" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-52" value="priority level" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiGFBbw4CaWcHELW53he-55" value="priority level" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
