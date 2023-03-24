@@ -1,3 +1,3 @@
-module github.com/almightygloman/go
+module github.com/almightygloman/cli-todolist
 
 go 1.18
