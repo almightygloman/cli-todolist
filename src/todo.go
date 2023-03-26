@@ -66,7 +66,7 @@ func listall(tasks []task) {
 	} else {
 		for _, task := range tasks {
 			fmt.Printf("%d. %s (assigned: %s, due date: %s, done: %t)\n",
-				task.ID, task.DESC, task.ASSIGNED.Format("2006-01-02 15:04:05"), task.DUE.Format("2006-01-02 15:04:05"), task.DONE)
+				task.ID, task.DESC, task.ASSIGNED.Format("2006-01-02 15:04:05"), task.DUE.Format("2006-01-02 15:04"), task.DONE)
 		}
 	}
 }
@@ -81,7 +81,7 @@ func add(tasks []task) []task {
 	fmt.Println("Enter the Due Date (YYYY-MM-DD HH:MM): ")
 	dueDateString, _ := reader.ReadString('\n')
 	dueDateString = strings.TrimSuffix(dueDateString, "\n")
-	dueDate, err := time.Parse("2006-01-02 15:04:05", dueDateString)
+	dueDate, err := time.Parse("2006-01-02 15:04", dueDateString)
 	if err != nil {
 		fmt.Println("Invalid date format")
 		return tasks
@@ -99,6 +99,8 @@ func add(tasks []task) []task {
 	tasks = append(tasks, newTask)
 
 	saveTasksToFile(tasks)
+
+	fmt.Print("Task added")
 
 	return tasks
 
