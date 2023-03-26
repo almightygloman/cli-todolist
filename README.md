@@ -6,11 +6,10 @@ Clone this repository: git clone https://github.com/your-username/cli-todo-list.
 Navigate to the cloned directory: cd cli-todo-list
 Install dependencies: go mod download
 
-Usage
+Usage:
 
 To start the application, run: go run main.go
 Enter one of the following commands:
-
 list: to list all tasks
 add: to add a task
 comp: to mark a task as completed
