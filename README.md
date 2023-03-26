@@ -1,18 +1,19 @@
-Command Line Interface To Do List
+This is a simple CLI to-do list application built in Go. It allows you to add tasks, list tasks, and mark tasks as completed.
 
-!trying to do as much as i can from scratch.
+Installation
+Clone this repository: git clone https://github.com/your-username/cli-todo-list.git
+Navigate to the cloned directory: cd cli-todo-list
+Install dependencies: go mod download
 
-*Tasks:
--tasks are to be checked off as on a normal to do list
+Usage
+To start the application, run: go run main.go
+Enter one of the following commands:
 
--tasks contain information on: due date, priority, description, progress made on task, & unique id
+list to list all tasks
+add to add a task
+comp to mark a task as completed
+exit to exit the application
+Follow the prompts to complete the selected command.
 
--due date has to parse a string input to a comparable date to sort tasks by date
-
--priority holds an integer to also aid in sorting tasks 
-
--description contains a multiline string that will be saved as a .txt file
-
--progress holds an integer to display if a task has been started, not started or completed 
-
--will have to generate a unique id for each tash created
+Contributing
+Contributions are welcome! If you have any ideas for new features or improvements, please open an issue or submit a pull request.
